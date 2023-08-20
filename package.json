@@ -1,0 +1,45 @@
+{
+  "name": "@awalgawe/esbuild-typescript-paths-plugin",
+  "version": "1.0.0",
+  "description": "A plugin for esbuild that resolves TypeScript path aliases during the build process.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "node --enable-source-maps --test dist",
+    "test:watch": "node --enable-source-maps --watch --test dist",
+    "lint": "eslint src --ext .ts",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "build:clean": "rm -rf dist"
+  },
+  "author": "Valéry Herlaud",
+  "keywords": [
+    "esbuild",
+    "typescript",
+    "tsconfig",
+    "paths",
+    "aliases",
+    "plugin"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/git-diff": "^2.0.3",
+    "@types/node": "^20.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "assert-plus": "^1.0.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "git-diff": "^2.0.6",
+    "prettier": "^3.0.1"
+  },
+  "peerDependencies": {
+    "esbuild": "^0.19.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {}
+}
