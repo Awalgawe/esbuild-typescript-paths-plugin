@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "paths": {
+      "#app/*": ["./src/*"],
+      "@packages/*": ["./packages/*"]
+    }
+  },
+  "include": [".", ".."]
+}
