@@ -8,9 +8,9 @@
     "node": ">=14.0.0"
   },
   "scripts": {
-    "test": "jest src",
+    "test": "jest dist",
     "test:watch": "jest --watch dist",
-    "lint": "eslint dist --ext .ts",
+    "lint": "eslint src --ext .ts",
     "build": "tsc",
     "build:watch": "tsc -w",
     "build:clean": "rm -rf dist"

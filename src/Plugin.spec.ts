@@ -1,5 +1,4 @@
 import { PluginBuild, build } from 'esbuild';
-import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import TsPathsPlugin from './Plugin';
 import { describe, it, expect } from '@jest/globals';
