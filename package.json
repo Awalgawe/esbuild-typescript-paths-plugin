@@ -2,6 +2,11 @@
   "name": "@awalgawe/esbuild-typescript-paths-plugin",
   "version": "1.0.0",
   "description": "A plugin for esbuild that resolves TypeScript path aliases during the build process.",
+  "homepage": "https://github.com/Awalgawe/esbuild-typescript-paths-plugin",
+  "repository": "github:Awalgawe/esbuild-typescript-paths-plugin",
+  "bugs": {
+    "url": "https://github.com/Awalgawe/esbuild-typescript-paths-plugin/issues"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "engines": {
